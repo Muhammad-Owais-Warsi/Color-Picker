@@ -67,6 +67,7 @@ function App() {
               icon: '✅',
             });
           }}
+          
           style={{fontSize:"20px", textAlign:"center"}}
         />
       </div>
