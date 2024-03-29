@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border: 2px solid #333;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .slider {
+    margin-bottom: 10px;
+  }
+  
+  .slider label {
+    font-weight: bold;
+  }
+  
+  .slider input[type="range"] {
+    width: 200px;
+  }
+  
+  .rgb-input {
+    margin-top: 20px;
+  }
+  
